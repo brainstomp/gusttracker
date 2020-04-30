@@ -1,6 +1,6 @@
 $(document).ready(function(){
  $.ajax({
-  url: "http://lifeatterminalvelocity.com/csc_awos/data.php",
+  url: "https://<YourURLHostingThis>/awos/data.php",
   method: "GET",
   success: function(data) {
    console.log(data);
