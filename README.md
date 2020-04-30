@@ -18,6 +18,8 @@ app.js - javascript to turn the data into a graph.
 
 linegraph.html - pulls it all together to show the graph with the winds and gusts data from the database.
 
-jquery.min.js - javascript library I found that lets me do some of the datapulls I need to make.
+jquery.min.js - javascript library I found that lets me do some of the datapulls I need to make. You can download the latest version at https://jquery.com/download/
+
+chart.bundle.js - javascript library I found that lets me chart the data. You can download the latest version at https://github.com/chartjs/Chart.js/releases
 
 csc_awos_db_schema - the schema of the database I use to store the data. 
