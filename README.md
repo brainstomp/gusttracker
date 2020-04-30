@@ -10,9 +10,7 @@ File descriptions:
 
 get_json_convert2csv_import2mysql.sh - script to pull a json source into a local path as a CSV with the date/time of the retrieval as the file name. I run this on a crontab on the server running the website hosting the gusts tracker.
 
-get_data.sh - script to pull the json data stream for a minute from the json source. The data this generates is what get_json_convert2csv_importmysql.sh uses
-
-data-sample.php - a sample data query from MySQL using PHP that the page uses to pull the data needed to generate the graph.
+data.php - a sample data query from MySQL using PHP that the page uses to pull the data needed to generate the graph.
 
 app.js - javascript to turn the data into a graph.
 
